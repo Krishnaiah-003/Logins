@@ -19,8 +19,6 @@ public class Logins {
 		driver.findElement(By.id("identifierId")).sendKeys("venkatakrishnaiah003@gmail.com",Keys.ENTER);
 		driver.findElement(By.id("password")).sendKeys("8464889435",Keys.ENTER);
 		driver.quit();
-
-
 	}
 	@Test(priority=2)
 	public void FacebookLogin() throws Exception {
@@ -34,7 +32,6 @@ public class Logins {
 		driver.findElement(By.id("pass")).sendKeys("gvkumark",Keys.ENTER);
 		Thread.sleep(3000);
 		driver.quit();
-
 	}
 	@Test(priority=1)
 	public void TeamsViewLogin() throws Exception {
