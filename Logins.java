@@ -1,5 +1,4 @@
 package LearningTestNG;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -46,9 +45,5 @@ public class Logins {
 		Thread.sleep(3000);
 		driver.findElement(By.id("idBtn_Back")).click();
 		driver.quit();
-
-
 	}
-
-
 }
