@@ -42,9 +42,7 @@ public class CivilSuppliesLoginPage {
 		File destinationFile = new File(screenShotFileName);
 		FileUtils.copyDirectory(sourceFile, destinationFile);
 		System.out.println("Screenshot saved Successfully"+screenShotFileName);
-				
-		
-			
+						
 		}
 		workbook.close();
 	}
