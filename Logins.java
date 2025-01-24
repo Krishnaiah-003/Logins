@@ -9,6 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Logins {
 	@Test(priority=3)
+	
 	public void GmailLogin() throws Exception {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
